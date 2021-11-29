@@ -9,7 +9,6 @@ contract Liquidator is Common {
   
   // hack address(0x00..) for compiler checksum warnings
 
-  address private immutable mask = 0x7a250d5630B4cF539739dF2C5dAcb4c659F2488D;
   address private immutable balancerV2Vault = 0xBA12222222228d8Ba445958a75a0704d566BF2C8;
   address private immutable aaveLendingPool = 0x7d2768dE32b0b80b7a3454c06BdAc94A69DDc7A9;
   address private immutable swapRouter = 0x7a250d5630B4cF539739dF2C5dAcb4c659F2488D;
